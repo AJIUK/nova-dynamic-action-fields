@@ -1,13 +1,14 @@
 {
     "name": "tunezilla/dynamic-action-fields",
-    "description": "Dynamic Action Fields for Laravel Nova",
+    "description": "Dynamic Action Fields for Laravel Nova 5",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
